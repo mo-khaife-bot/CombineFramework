@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D3C9CE7C-3964-4283-A8D8-254E0CB4E4F8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55B1A0E9-D1BF-4E1E-B5DB-452DE34EE468"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CombinePlanets/ViewModel/PlanetsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "fetchPlanets(apiUrl:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "55B1A0E9-D1BF-4E1E-B5DB-452DE34EE468 - 3849869f2fb000eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in CombinePlanets.PlanetsViewModel.fetchPlanets(apiUrl: Swift.String) -&gt; ()"
+                  moduleName = "CombinePlanets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohomedali/Desktop/Desktop%20-%20Mo&apos;s%20ITC%20Laptop/CombinePlanets/CombinePlanets/ViewModel/PlanetsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "179">
+               </Location>
+               <Location
+                  uuid = "55B1A0E9-D1BF-4E1E-B5DB-452DE34EE468 - aa01733c645e8475"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;CombinePlanets.NetworkError&gt;) -&gt; () in CombinePlanets.PlanetsViewModel.fetchPlanets(apiUrl: Swift.String) -&gt; ()"
+                  moduleName = "CombinePlanets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohomedali/Desktop/Desktop%20-%20Mo&apos;s%20ITC%20Laptop/CombinePlanets/CombinePlanets/ViewModel/PlanetsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "89">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C09FAFA7-0552-4B60-BE09-2DD99B8F182F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CombinePlanets/ViewModel/PlanetsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "fetchPlanets(apiUrl:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C09FAFA7-0552-4B60-BE09-2DD99B8F182F - 3849869f2fb00182"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in CombinePlanets.PlanetsViewModel.fetchPlanets(apiUrl: Swift.String) -&gt; ()"
+                  moduleName = "CombinePlanets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohomedali/Desktop/Desktop%20-%20Mo&apos;s%20ITC%20Laptop/CombinePlanets/CombinePlanets/ViewModel/PlanetsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "453">
+               </Location>
+               <Location
+                  uuid = "C09FAFA7-0552-4B60-BE09-2DD99B8F182F - aa01733c645e851c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;CombinePlanets.NetworkError&gt;) -&gt; () in CombinePlanets.PlanetsViewModel.fetchPlanets(apiUrl: Swift.String) -&gt; ()"
+                  moduleName = "CombinePlanets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohomedali/Desktop/Desktop%20-%20Mo&apos;s%20ITC%20Laptop/CombinePlanets/CombinePlanets/ViewModel/PlanetsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "296">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13F08D94-81CA-4B63-A45A-52998293CB6E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CombinePlanets/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "fetchPlantetsFromApi(url:type:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "13F08D94-81CA-4B63-A45A-52998293CB6E - 840fbc9a7e39ff0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CombinePlanets.NetworkManager.fetchPlantetsFromApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, type: &#x3c4;_0_0.Type) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, Swift.Error&gt;"
+                  moduleName = "CombinePlanets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohomedali/Desktop/Desktop%20-%20Mo&apos;s%20ITC%20Laptop/CombinePlanets/CombinePlanets/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "917">
+               </Location>
+               <Location
+                  uuid = "13F08D94-81CA-4B63-A45A-52998293CB6E - 745df5a7a4bc7714"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Error) -&gt; Swift.Error in CombinePlanets.NetworkManager.fetchPlantetsFromApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, type: &#x3c4;_0_0.Type) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, Swift.Error&gt;"
+                  moduleName = "CombinePlanets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohomedali/Desktop/Desktop%20-%20Mo&apos;s%20ITC%20Laptop/CombinePlanets/CombinePlanets/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "13F08D94-81CA-4B63-A45A-52998293CB6E - 467f417fc835bff6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in CombinePlanets.NetworkManager.fetchPlantetsFromApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, type: &#x3c4;_0_0.Type) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, Swift.Error&gt;"
+                  moduleName = "CombinePlanets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohomedali/Desktop/Desktop%20-%20Mo&apos;s%20ITC%20Laptop/CombinePlanets/CombinePlanets/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "13F08D94-81CA-4B63-A45A-52998293CB6E - 467f417fc835bff6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in CombinePlanets.NetworkManager.fetchPlantetsFromApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, type: &#x3c4;_0_0.Type) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, Swift.Error&gt;"
+                  moduleName = "CombinePlanets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohomedali/Desktop/Desktop%20-%20Mo&apos;s%20ITC%20Laptop/CombinePlanets/CombinePlanets/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "13F08D94-81CA-4B63-A45A-52998293CB6E - 2258284d7e3dcdc7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in CombinePlanets.NetworkManager.fetchPlantetsFromApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, type: &#x3c4;_0_0.Type) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, CombinePlanets.NetworkError&gt;"
+                  moduleName = "CombinePlanets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohomedali/Desktop/Desktop%20-%20Mo&apos;s%20ITC%20Laptop/CombinePlanets/CombinePlanets/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "13F08D94-81CA-4B63-A45A-52998293CB6E - 2258284d7e3dcdc7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in CombinePlanets.NetworkManager.fetchPlantetsFromApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, type: &#x3c4;_0_0.Type) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, CombinePlanets.NetworkError&gt;"
+                  moduleName = "CombinePlanets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohomedali/Desktop/Desktop%20-%20Mo&apos;s%20ITC%20Laptop/CombinePlanets/CombinePlanets/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6BFD0B4-CE6F-400C-8A94-6D580883F30E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CombinePlanets/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchPlantetsFromApi(url:type:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "C6BFD0B4-CE6F-400C-8A94-6D580883F30E - 69922d345c5efd19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Error) -&gt; CombinePlanets.NetworkError in CombinePlanets.NetworkManager.fetchPlantetsFromApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, type: &#x3c4;_0_0.Type) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, CombinePlanets.NetworkError&gt;"
+                  moduleName = "CombinePlanets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohomedali/Desktop/Desktop%20-%20Mo&apos;s%20ITC%20Laptop/CombinePlanets/CombinePlanets/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "C6BFD0B4-CE6F-400C-8A94-6D580883F30E - 69922d345c5efd76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Error) -&gt; CombinePlanets.NetworkError in CombinePlanets.NetworkManager.fetchPlantetsFromApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, type: &#x3c4;_0_0.Type) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, CombinePlanets.NetworkError&gt;"
+                  moduleName = "CombinePlanets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohomedali/Desktop/Desktop%20-%20Mo&apos;s%20ITC%20Laptop/CombinePlanets/CombinePlanets/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
