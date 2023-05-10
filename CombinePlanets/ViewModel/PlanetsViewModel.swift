@@ -8,56 +8,17 @@
 import Foundation
 import Combine
 
-//final class PlanetsViewModel: ObservableObject {
-//
-//    // Source of truth load up as empty array in the biginning
-//    @Published var planetsList: [Result] = []
-//
-//
-//    let networkAble : NetworkableProtocol
-//    private var cancelable = Set<AnyCancellable>()
-//
-//    init(networkAble: NetworkableProtocol) {
-//        self.networkAble = networkAble
-//    }
-//
-//    func fetchPlanets(apiUrl: String) {
-//        guard let url = URL(string: apiUrl) else {
-//            return
-//        }
-//
-//        self.networkAble.fetchPlantetsFromApi(url: url, type: Result.self)
-//            .receive(on: RunLoop.main)
-//            .sink { completion in
-//                switch completion{
-//
-//                case .finished:
-//                    print("done")
-//
-//                case .failure(let error):
-//                    print(error.localizedDescription)
-//                }
-//
-//            } receiveValue: { result  in
-//                if let planets = result {
-//                    print(planets)
-//                    self.planetsList = [planets]
-//                } else {
-//                    // Handle empty response here
-//                           print("Empty response received")
-//                }
-//
-//            }.store(in: &cancelable)
-//
-//    }
-//
-//}
 
 final class PlanetsViewModel: ObservableObject {
     
     // Source of truth load up as empty array in the beginning
-    @Published var planetsList: [Result] = []
+    private var planetsList: [Result] = []
+    
+    @Published var filteredPlanetsList: [Result] = []
+    
+    
     @Published var customError: NetworkError?
+    
     
     let networkAble: NetworkableProtocol
     private var cancelable = Set<AnyCancellable>()
@@ -68,6 +29,10 @@ final class PlanetsViewModel: ObservableObject {
     
     func fetchPlanets(apiUrl: String) {
         guard let url = URL(string: apiUrl) else {
+            self.customError = .invalidURL
+
+            self.filteredPlanetsList = []
+
             return
         }
         
@@ -99,7 +64,7 @@ final class PlanetsViewModel: ObservableObject {
 //                        }
                         self.customError = .dataNotFoundError
                     }
-                    print(self.customError?.localizedDescription)
+                    print(self.customError?.localizedDescription as Any)
                     
                     
                     
@@ -110,7 +75,7 @@ final class PlanetsViewModel: ObservableObject {
                 if !response.results.isEmpty {
                     
                     print(response.results)
-                    
+                    self.filteredPlanetsList = response.results.sorted(by: {$0.name < $1.name})
                     self.planetsList = response.results
                     
                 } else {
@@ -122,4 +87,28 @@ final class PlanetsViewModel: ObservableObject {
             })
             .store(in: &cancelable)
     }
+    
+    func searchListOfPlanets(searchTerm: String) {
+        if (searchTerm.isEmpty){
+            self.filteredPlanetsList = self.planetsList.sorted(by: {$0.name < $1.name})
+            print("Search term is empty, populating filteredPlanetsList with all planets: \(self.filteredPlanetsList)")
+            
+        } else {
+            let filteredList = self.planetsList.filter{ user in
+                return user.name.localizedCaseInsensitiveContains(searchTerm)
+            }
+            self.filteredPlanetsList = filteredList.sorted(by: {$0.name < $1.name})
+            
+        }
+       
+      
+    }
+    
+    // cancel Combine
+    func cancelAPICall(){
+        print("cancelAPICall")
+        cancelable.first?.cancel()
+    }
+        
+    
 }

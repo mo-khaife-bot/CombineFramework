@@ -14,8 +14,8 @@
             filePath = "CombinePlanets/ViewModel/PlanetsViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "fetchPlanets(apiUrl:)"
             landmarkType = "7">
             <Locations>
@@ -55,54 +55,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C09FAFA7-0552-4B60-BE09-2DD99B8F182F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CombinePlanets/ViewModel/PlanetsViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "fetchPlanets(apiUrl:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C09FAFA7-0552-4B60-BE09-2DD99B8F182F - 3849869f2fb00182"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in CombinePlanets.PlanetsViewModel.fetchPlanets(apiUrl: Swift.String) -&gt; ()"
-                  moduleName = "CombinePlanets"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohomedali/Desktop/Desktop%20-%20Mo&apos;s%20ITC%20Laptop/CombinePlanets/CombinePlanets/ViewModel/PlanetsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "89"
-                  endingLineNumber = "89"
-                  offsetFromSymbolStart = "453">
-               </Location>
-               <Location
-                  uuid = "C09FAFA7-0552-4B60-BE09-2DD99B8F182F - aa01733c645e851c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;CombinePlanets.NetworkError&gt;) -&gt; () in CombinePlanets.PlanetsViewModel.fetchPlanets(apiUrl: Swift.String) -&gt; ()"
-                  moduleName = "CombinePlanets"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohomedali/Desktop/Desktop%20-%20Mo&apos;s%20ITC%20Laptop/CombinePlanets/CombinePlanets/ViewModel/PlanetsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "89"
-                  endingLineNumber = "89"
-                  offsetFromSymbolStart = "296">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "13F08D94-81CA-4B63-A45A-52998293CB6E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -113,7 +65,7 @@
             startingLineNumber = "18"
             endingLineNumber = "18"
             landmarkName = "fetchPlantetsFromApi(url:type:)"
-            landmarkType = "9">
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "13F08D94-81CA-4B63-A45A-52998293CB6E - 840fbc9a7e39ff0d"
@@ -221,7 +173,7 @@
             startingLineNumber = "28"
             endingLineNumber = "28"
             landmarkName = "fetchPlantetsFromApi(url:type:)"
-            landmarkType = "9">
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "C6BFD0B4-CE6F-400C-8A94-6D580883F30E - 69922d345c5efd19"

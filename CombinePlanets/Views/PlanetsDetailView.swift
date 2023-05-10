@@ -20,29 +20,58 @@ struct PlanetsDetailView: View {
     
     var body: some View {
         VStack{
-            Text(planetName).font(.system(size: 25, weight: .bold, design: .monospaced)).padding(20)
-            AsyncImage(url: URL(string: "https://picsum.photos/200")) { phase in
-                            if let image = phase.image {
-                                image
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: dimensions, height: dimensions)
-                                    .clipShape(Circle())
-                            } else if phase.error != nil {
-                                Text("Failed to load image")
-                            } else {
-                                ProgressView().frame(width: dimensions, height: dimensions).background(.thinMaterial)
-                            }
-                    
-            }.padding()
+            Text(planetName)
+                            .font(.system(size: 25, weight: .bold, design: .monospaced))
+                            .padding(.bottom, 10)
+                            .modifier(PlanetImageModifier(dimensions: dimensions))
             
             
-            Text("Orbital Period \(planetOrbitPeriod)")
-            Text("Climate: \(planetClimate)")
-            Text("Gravity: \(planetGravity)")
-            Text("Population: \(planetOrbitPeriod)")
+            HStack {
+                Text("Orbital Period ")
+                Text("\(planetOrbitPeriod) days").bold()
+                    .multilineTextAlignment(.leading)
+            }
+            HStack{
+                Text("Climate: ").multilineTextAlignment(.leading)
+                Text("\(planetClimate)").bold()
+                
+            }
+            HStack{
+                Text("Gravity:" ).multilineTextAlignment(.leading)
+                Text("\(planetGravity)").bold()
+            }
+            HStack{
+                Text("Population: ").multilineTextAlignment(.leading)
+                Text(planetPopulation).bold()
+            }
+            
             
         }
+    }
+}
+
+struct PlanetImageModifier: ViewModifier {
+    let dimensions: Double
+    
+    func body(content: Content) -> some View {
+        VStack {
+            content
+            AsyncImage(url: URL(string: "https://picsum.photos/200")) { phase in
+                if let image = phase.image {
+                    image
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: dimensions, height: dimensions)
+                        .clipShape(Circle())
+                } else if phase.error != nil {
+                    Text("Failed to load image")
+                } else {
+                    ProgressView().frame(width: dimensions, height: dimensions).background(.thinMaterial)
+                }
+            }
+            
+        }
+        .padding()
     }
 }
 
